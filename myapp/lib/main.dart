@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
                       margin: EdgeInsets.only(top: 20),
                       child: CircleAvatar(
                         radius: 60,
-                        backgroundImage: AssetImage('screenshots/Arts/738.jpg'),
+                        child: Icon(Icons.face_retouching_natural, size: 120),
                       ),
                     ),
                     SizedBox(height: 30),
@@ -40,12 +40,12 @@ class MyApp extends StatelessWidget {
                     ),
                     SizedBox(height: 10),
                     Text(
-                    'Hanoi University of Mining and Geology',
+                    'Là sinh viên trường Đại học Mỏ - Địa Chất',
                     style: Theme.of(context).textTheme.subtitle1,
                     ),
                     SizedBox(height: 10),
                     Text(
-                    'Github: https://github.com/tranthinh99',
+                    'SĐT: 0376033303',
                     style: Theme.of(context).textTheme.subtitle1,
                     ),
                   ],
@@ -64,14 +64,14 @@ class MyApp extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
                         Text(
-                          'MSV',
+                          'Chuyên Ngành',
                           style: TextStyle(color: Colors.black54),
                         ),
                         Text(
-                          '1721050288',
+                          'Mạng Máy Tính',
                           style: TextStyle(
-                            color: Colors.red,
-                            fontSize: 16,
+                            color: Colors.blue,
+                            fontSize: 18,
                           ),
                         ),
                       ],
@@ -80,14 +80,14 @@ class MyApp extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
                         Text(
-                          'Class',
+                          'Mã Sinh Viên',
                           style: TextStyle(color: Colors.black54),
                         ),
                         Text(
-                          'DCCTMM62A',
+                          '1721050288',
                           style: TextStyle(
                             color: Colors.black87,
-                            fontSize: 16,
+                            fontSize: 18,
                           ),
                         ),
                       ],
@@ -103,7 +103,7 @@ class MyApp extends StatelessWidget {
                           'K62',
                           style: TextStyle(
                             color: Colors.black87,
-                            fontSize: 16,
+                            fontSize: 18,
                           ),
                         ),
                       ],
